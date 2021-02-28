@@ -7,7 +7,7 @@ namespace Pollen\FormMailer;
 use Closure;
 use Pollen\Form\AddonDriver;
 use Pollen\Form\AddonDriverInterface;
-use Pollen\Form\FieldDriverInterface;
+use Pollen\Form\FormFieldDriverInterface;
 use Pollen\Validation\Validator as v;
 
 class FormAddonDriver extends AddonDriver implements FormAddonDriverInterface
